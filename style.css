@@ -17,6 +17,12 @@ img {
     display: flex;
 }
 
+@media (max-width: 1024px) {
+    .intro {
+        flex-direction: column;
+    }
+}
+
 a {
     text-decoration: none;
     color: #d3d59ce8;
@@ -26,4 +32,12 @@ a {
     display: inline-flex;
     align-items: center;
     border-radius: 1.25rem;
+}
+
+.article-image {
+    width: 512px;
+}
+
+article {
+    display: flex;
 }
