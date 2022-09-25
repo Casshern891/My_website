@@ -11,6 +11,7 @@ h1 {
 
 img {
     width: 320px;
+    margin: 10px;
 }
 
 .intro {
@@ -36,6 +37,7 @@ a {
 
 .article-image {
     width: 512px;
+    margin: 10px;
 }
 
 article {
