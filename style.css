@@ -9,6 +9,10 @@ h1 {
     font-size: 4rem;
 }
 
+header {
+    display: inline-flex;
+}
+
 img {
     width: 320px;
     margin: 10px;
@@ -24,7 +28,7 @@ img {
     }
 }
 
-a {
+a.platform {
     text-decoration: none;
     color: #d3d59ce8;
     background-color: #1348DA;
