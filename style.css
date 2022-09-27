@@ -9,9 +9,46 @@ h1 {
     font-size: 4rem;
 }
 
-header {
-    display: inline-flex;
+
+nav,
+section {
+  border-block-end: 1px solid var(--primary);
 }
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  header nav li {
+    display: inline;
+    margin-inline-start: 1rem;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+  }
+  
+  header nav li a {
+    text-decoration: none;
+    color: var(--primary);
+  }
+
+  header .controls {
+    display: flex;
+    justify-content: end;
+    padding: 1rem 0;
+  }
+
+  .bio {
+    display: flex;
+    align-items: center;
+    padding-block-end: 4rem;
+  }
 
 img {
     width: 320px;
