@@ -1,8 +1,11 @@
 body {
     background: #d3d59ce8;
     color: #253A52;
+    margin: 0 auto;
     padding: 25px;
-    font-family: sans-serif;
+    font-family: "Work Sans" sans-serif;
+    max-width: 1024px;
+    box-sizing: border-box;
 }
 
 h1 {
