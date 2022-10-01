@@ -6,7 +6,13 @@ body {
     font-family: "Work Sans" sans-serif;
     max-width: 1024px;
     box-sizing: border-box;
+
+    --light-background: #d3d59ce8;
+    --light-primary: #253A52;
+    
 }
+
+
 
 h1 {
     font-size: 4rem;
