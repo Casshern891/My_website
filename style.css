@@ -7,9 +7,17 @@ body {
     max-width: 1024px;
     box-sizing: border-box;
 
+    --dark-background: #253a52;
+    --dark-primary: #FFFFE3;
+    --dark-link: #A9FE75;
+
     --light-background: #d3d59ce8;
     --light-primary: #253A52;
-    
+    --light-link: #1348da;
+
+    --background: var(--light-background);
+    --primary: var(--light-primary);
+    --link: var(--light-link);
 }
 
 
